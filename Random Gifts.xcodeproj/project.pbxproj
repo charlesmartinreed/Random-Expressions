@@ -12,6 +12,9 @@
 		8C65E49221C854D80080A577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C65E49021C854D80080A577 /* Main.storyboard */; };
 		8C65E49421C854DC0080A577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C65E49321C854DC0080A577 /* Assets.xcassets */; };
 		8C65E49721C854DC0080A577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C65E49521C854DC0080A577 /* LaunchScreen.storyboard */; };
+		8C65E49F21C863C10080A577 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65E49E21C863C10080A577 /* SwipingController.swift */; };
+		8C65E4A121C8644C0080A577 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65E4A021C8644C0080A577 /* PageCell.swift */; };
+		8C65E4A321C869490080A577 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65E4A221C869490080A577 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8C65E49321C854DC0080A577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C65E49621C854DC0080A577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C65E49821C854DC0080A577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C65E49E21C863C10080A577 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		8C65E4A021C8644C0080A577 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		8C65E4A221C869490080A577 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8C65E49321C854DC0080A577 /* Assets.xcassets */,
 				8C65E49521C854DC0080A577 /* LaunchScreen.storyboard */,
 				8C65E49821C854DC0080A577 /* Info.plist */,
+				8C65E49E21C863C10080A577 /* SwipingController.swift */,
+				8C65E4A021C8644C0080A577 /* PageCell.swift */,
+				8C65E4A221C869490080A577 /* Page.swift */,
 			);
 			path = "Random Gifts";
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				8C65E48F21C854D80080A577 /* ViewController.swift in Sources */,
 				8C65E48D21C854D80080A577 /* AppDelegate.swift in Sources */,
+				8C65E4A121C8644C0080A577 /* PageCell.swift in Sources */,
+				8C65E49F21C863C10080A577 /* SwipingController.swift in Sources */,
+				8C65E4A321C869490080A577 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
